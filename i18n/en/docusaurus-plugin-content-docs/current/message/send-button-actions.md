@@ -43,7 +43,7 @@ In this method, you will be able to send text messages with action buttons. You 
 | :-------- | :----: | :---------------------------- |
 | type      | string | Types of buttons to be sent (CALL, URL, REPLY) |
 | phone     | string | Number assigned to the button if it is of type CALL |
-| url       | string | Link assigned to the button if it is of type URL.   |
+| url       | string | The link assigned to the button if it is a URL (must start with http:// or https://) |
 | label     | string | Text for the button |
 
 :::tip Dica:

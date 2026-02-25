@@ -42,7 +42,7 @@ Neste método você poderá enviar mensagens de texto com botões de ação, voc
 | :-------- | :----: | :---------------------------- |
 | type      | string | Tipos de botão a ser enviados (CALL, URL, REPLY) |
 | phone     | string | Número atribuído ao botão caso seja do tipo CALL |
-| url       | string | Link atribuído ao botão caso seja do tipo URL.   |
+| url       | string | Link atribuído ao botão caso seja do tipo URL (deve começar com http:// ou https://)   |
 | label     | string | Texto para o botão |
 
 :::tip Dica:
